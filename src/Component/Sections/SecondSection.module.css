@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.secondContainer {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37373F;
+}
+.Areas {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftAreas {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.leftAreas h1 {
+  font-size: 50px;
+  color: white ;
+}
+.leftAreas h1 span {
+  color: #b49c73;
+}
+.leftAreas p {
+    color: gray;
+    margin-left: 40px;
+  
+  
+}
+.leftAreas button{
+    padding: 14px 18px 14px 18px ;
+    background-color: #B49C73;
+    border: none;
+    border-radius: 20px ;
+    color: white;
+    font-weight:900;
+    font-size: 12px;
+    margin-left: 40px;
+    cursor: pointer;
+}
